@@ -12,4 +12,3 @@ text_elems = text.strip().split("\t")
 result = dict(zip(text_cats, text_elems))
 for i in result:
     event_heads.write("{} : {}".format(i, result[i]))
-
